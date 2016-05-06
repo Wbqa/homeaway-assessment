@@ -1,4 +1,4 @@
-# HomeAway Assessment Tests
+# HomeAway Assessment Test
 
 ## Overview
 This repository contains HomeAway assessment maven project covering the test scenarios outlined in HomeAway assessment slide deck.  
