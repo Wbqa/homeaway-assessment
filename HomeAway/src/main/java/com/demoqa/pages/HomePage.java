@@ -37,8 +37,8 @@ public class HomePage extends AbstractBasePage
 		products.moveToElement(driver.findElement(getLocator("productcategory"))).perform();
 		elementVisibiltyWait(getLocator("iPads"));
 		driver.findElement(getLocator("iPads")).click();
-		IphonePage ipp = new IphonePage(driver);
-		return ipp;
+		IpadPage ipd = new IpadPage(driver);
+		return ipd;
 		
 	}
 
