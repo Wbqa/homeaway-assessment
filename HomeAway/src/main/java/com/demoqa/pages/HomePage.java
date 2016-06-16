@@ -30,6 +30,17 @@ public class HomePage extends AbstractBasePage
 		IphonePage ipp = new IphonePage(driver);
 		return ipp;
 	}
+	public IphonePage productCategoryToIpads()
+	{
+		Actions products = new Actions(driver);
+		elementVisibiltyWait(getLocator("productcategory"));
+		products.moveToElement(driver.findElement(getLocator("productcategory"))).perform();
+		elementVisibiltyWait(getLocator("iPads"));
+		driver.findElement(getLocator("iPads")).click();
+		IphonePage ipp = new IphonePage(driver);
+		return ipp;
+		
+	}
 
 	public LoginPage homeToMyAccount()
 	{
