@@ -30,7 +30,7 @@ public class HomePage extends AbstractBasePage
 		IphonePage ipp = new IphonePage(driver);
 		return ipp;
 	}
-	public IphonePage productCategoryToIpads()
+	public IpadPage productCategoryToIpads()
 	{
 		Actions products = new Actions(driver);
 		elementVisibiltyWait(getLocator("productcategory"));
