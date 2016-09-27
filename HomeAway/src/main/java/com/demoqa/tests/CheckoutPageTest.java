@@ -29,6 +29,7 @@ public class CheckoutPageTest extends AbstractBaseTest
 		CheckoutPage cptest = ipptest.AddToCart();
 		boolean actual = cptest.continueOrder();
 		Assert.assertTrue(actual == true);
+		System.out.println("est");
 	}
 
 	// Verify removing all items from your cart produces an empty cart message.
