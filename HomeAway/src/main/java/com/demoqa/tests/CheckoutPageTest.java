@@ -28,7 +28,7 @@ public class CheckoutPageTest extends AbstractBaseTest
 		IphonePage ipptest = hp.productCategoryToIphones();
 		CheckoutPage cptest = ipptest.AddToCart();
 		boolean actual = cptest.continueOrder();
-		Assert.assertTrue(actual == true);
+		Assert.assertTrue(actual == false);
 		System.out.println("est");
 	}
 
